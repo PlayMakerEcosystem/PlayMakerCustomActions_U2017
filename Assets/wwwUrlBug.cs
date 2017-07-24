@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿// this is a test for bug https://issuetracker.unity3d.com/issues/www-dot-url-truncates-redirected-url-if-it-should-have-contained-spaces
+// it is present in 2017.0 and 2017.1
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
