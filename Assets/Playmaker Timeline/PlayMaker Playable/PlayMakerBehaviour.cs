@@ -19,13 +19,9 @@ namespace HutongGames.PlayMaker.Ecosystem.Timeline
 
 		private string _debug ="";
 
-
 		public void SetContext(GameObject owner,PlayableGraph graph, PlaymakerClip clip)
 		{
-			Debug.Log ("SetContext" + owner);
-
 			_clip = clip;
-
 		}
 
 		#region PlayableBehaviour
@@ -68,7 +64,7 @@ namespace HutongGames.PlayMaker.Ecosystem.Timeline
 
 			if (Application.isPlaying)
 			{
-				pmEvent.SendEvent (null, _clip.eventTarget);
+				pmEvent.SendEvent (null, _clip.eventTarget,_clip.debug);
 			}
 		}
 
