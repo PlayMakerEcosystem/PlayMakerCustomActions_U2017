@@ -43,6 +43,8 @@ namespace HutongGames.PlayMaker.Ecosystem.Timeline
 			var playable = ScriptPlayable<PlaymakerBehaviour>.Create (graph,template);
 			var _t =	playable.GetBehaviour ();
 
+			this.eventTarget.SetOwner (owner);
+			this.eventTarget.Resolve (graph.GetResolver ());
 
 			_t.SetContext (owner, graph,this);
 		

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Main CameraTimeline
   m_EditorClassIdentifier: 
   m_Id: 0
-  m_NextId: 20
+  m_NextId: 23
   m_Tracks:
   - {fileID: 114204470454728986}
   m_FixedDuration: 0

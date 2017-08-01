@@ -12,23 +12,8 @@ namespace HutongGames.PlayMaker.Ecosystem.Timeline
 	[Serializable]
 	public class PlaymakerBehaviour : PlayableBehaviour
 	{
-		public PlayMakerTimelineEventTarget eventTarget = new PlayMakerTimelineEventTarget(false);
-
-//		[EventTargetVariable("eventTarget")]
-//		//[ShowOptions]
-//		public PlayMakerEvent OnPlay;
-//
-//
-//		[EventTargetVariable("eventTarget")]
-//		//[ShowOptions]
-//		public PlayMakerEvent OnFinished;
-
-//		public bool debug;
-
 
 		private PlaymakerClip _clip;
-
-		private GameObject _owner;
 
 		private bool isPlaying;
 
@@ -37,10 +22,10 @@ namespace HutongGames.PlayMaker.Ecosystem.Timeline
 
 		public void SetContext(GameObject owner,PlayableGraph graph, PlaymakerClip clip)
 		{
+			Debug.Log ("SetContext" + owner);
+
 			_clip = clip;
-			_owner = owner;
-			eventTarget.SetOwner (owner);
-			eventTarget.Resolve (graph.GetResolver ());
+
 		}
 
 		#region PlayableBehaviour
@@ -76,14 +61,14 @@ namespace HutongGames.PlayMaker.Ecosystem.Timeline
 
 				}
 
-				_debug += "Send " + pmEvent.ToString () + " on " + eventTarget.ToString ();
+				_debug += "Send " + pmEvent.ToString () + " on " + _clip.eventTarget.ToString ();
 
 				UnityEngine.Debug.Log (_debug);
 			}
 
 			if (Application.isPlaying)
 			{
-				pmEvent.SendEvent (null, eventTarget);
+				pmEvent.SendEvent (null, _clip.eventTarget);
 			}
 		}
 
