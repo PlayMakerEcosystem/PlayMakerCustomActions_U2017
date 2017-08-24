@@ -130,11 +130,11 @@ MonoBehaviour:
       exposedName: 
       defaultValue: {fileID: 0}
   OnPlay:
-    eventName: HELLO
+    eventName: TIMELINE / CLIP / ON STARTED
     allowLocalEvents: 0
     defaultEventName: 
   OnFinished:
-    eventName: WELL
+    eventName: TIMELINE / CLIP / ON ENDED
     allowLocalEvents: 0
     defaultEventName: 
   debug: 0
