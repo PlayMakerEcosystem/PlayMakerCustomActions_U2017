@@ -3,7 +3,7 @@
 "Version":"1.0",
 "UnityMinimumVersion":"2017.1",
 "PlayMakerMinimumVersion":"1.8.5",
-"unitypackage":"",
+"unitypackage":"PlayMaker/Ecosystem/Custom Samples/Animator/IKControls.unitypackage"
 "pingAssetPath":"Assets/PlayMaker Custom Samples/Animator/IK Controls/IK Controls.unity",
 "UnityModules":["Animator"],
 "keywords":"Mecanim IK Effector"
