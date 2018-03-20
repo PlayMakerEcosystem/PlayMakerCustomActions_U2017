@@ -18,7 +18,6 @@ namespace HutongGames.PlayMaker.Actions
 	[Tooltip("Set Generic Binding for a PlayableDirector")]
 	public class  SetPlayableDirectorGenericBinding : FsmStateAction
 	{
-		[RequiredField]
 		[CheckForComponent(typeof(PlayableDirector))]
 		[Tooltip("The game object to hold the unity timeline components.")]
 		public FsmOwnerDefault gameObject;
