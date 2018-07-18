@@ -2,7 +2,7 @@
 "__ECO__":"__PACKAGE__",
 "Author":"Jean Fabre",
 "Type":"Component",
-"Version":"1.2.2",
+"Version":"1.2.3",
 "UnityMinimumVersion":"2017.1",
 "PlayMakerMinimumVersion":"1.8.0",
 "unitypackage":"/PlayMaker/Ecosystem/Custom Packages/Cinemachine/Cinemachine.unitypackage",
