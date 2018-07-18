@@ -2,7 +2,7 @@
 "__ECO__":"__PACKAGE__",
 "Author":"Jean Fabre",
 "Type":"Package",
-"Version":"2.0.0",
+"Version":"2.1.0",
 "UnityMinimumVersion":"2017.2",
 "PlayMakerMinimumVersion":"1.8.5",
 "unitypackage":"/PlayMaker/Ecosystem/Custom Packages/Vuforia/PlayMakerVuforia.unitypackage",
