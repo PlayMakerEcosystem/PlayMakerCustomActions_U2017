@@ -7,5 +7,5 @@
 "PlayMakerMinimumVersion":"1.8.0",
 "unitypackage":"/PlayMaker/Ecosystem/Custom Samples/Resources/Interactive Book.unitypackage",
 "pingAssetPath":"Assets/PlayMaker Custom Samples/Resources/Interactive Book/Interactive Book.unity",
-"keywords":"Audio Book narrative"
+"keywords":"Audio Book narrative book"
 }
