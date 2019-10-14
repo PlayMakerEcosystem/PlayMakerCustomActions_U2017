@@ -16,6 +16,7 @@
 /*.vs
 
 .vs/
+.idea/
 
 #Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -39,3 +40,5 @@ PlayMaker.meta
 iTween.meta
 Assets/Plugins/Editor/ScriptInspector3/
 Assets/Plugins/Editor/ScriptInspector3.meta
+Assets/Plugins/Editor/JetBrains
+JetBrains.meta
