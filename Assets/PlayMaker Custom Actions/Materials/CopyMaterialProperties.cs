@@ -1,7 +1,6 @@
 ﻿// (c) Copyright HutongGames, LLC 2010-2019. All rights reserved.
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
-
-using UnityEngine;
+// keywords: copy material paste
 
 namespace HutongGames.PlayMaker.Actions
 {
