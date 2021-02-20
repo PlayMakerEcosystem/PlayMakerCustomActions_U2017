@@ -4,7 +4,7 @@
 "Type":"Package",
 "Version":"2.1.2",
 "UnityMinimumVersion":"2017.2",
-"PlayMakerMinimumVersion":"1.8.5",
+"PlayMakerMinimumVersion":"1.9.0",
 "unitypackage":"/PlayMaker/Ecosystem/Custom Packages/Vuforia/PlayMakerVuforia.unitypackage",
 "pingAssetPath":"Assets/PlayMaker Vuforia/Changelog.md",
 "UnityModules":["Vuforia"],
